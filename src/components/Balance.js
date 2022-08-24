@@ -10,8 +10,8 @@ export const Balance = () => {
 
   return (
     <>
-    <h4>Your Balance</h4>
-    <h1 id="balance">{total}</h1>
+    <h3>Your Balance</h3>
+    <h1 id="balance">${total}</h1>
     </>
   )
 }
